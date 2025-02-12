@@ -1,0 +1,44 @@
+@media screen and (max-width: 550px) {
+  #Onboard-btn {
+    display: none;
+  }
+}
+
+.main-faq {
+    display:flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-links {
+      display: none;
+    }
+    .copyright p {
+      text-align: center;
+    }
+    .main-faq {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    .achieved {
+      display:none;
+    }
+    .million {
+      display:none;
+    }
+    .staff{
+      display:none;
+    }
+   
+    .Explore{
+      display:none;
+    }
+    .heroicon img{
+      position:relative;
+      left:40%;
+    }
+    
+    
+  }
